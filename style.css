@@ -7,7 +7,7 @@
 header {
   width: 100%;
   background-color: white;
-  height: 60px;
+  min-height: 60px;
 }
 
 .header-show {
@@ -143,7 +143,6 @@ header {
 /* FIRST SECTION */
 /* FIRST ARTICLE*/
 .first-article {
-  maringborder: 2px solid red;
   width: 100%;
   height: 568px;
   background-image: url("assets/MobileHomeImage.png");
@@ -178,6 +177,11 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
+}
+
+.new-product-button p {
+  display: flex;
+  align-items: center;
 }
 .new-product-button:hover {
   cursor: pointer;
