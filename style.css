@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+}
+header {
+  background-color: black;
+  min-height: 60px;
+  width: 100%;
+  position: sticky;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 2vh;
+  left: 19px;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+}
+
+  /* NAV */
+  .nav {
+    position: absolute;
+    width: 100%;
+    top: 8vh;
+    left: 0px;
+    height: 102vh;
+    margin: 0%;
+    background: #5d4954;
+    transform: translateX(-100%);
+    transition: 0.7s ease-in;
+  }
+  .nav-links {
+    position: relative;
+    border: 2px solid blue;
+    list-style: none;
+    margin-top: 50%;
+  }
+  .nav ul li {
+    flex-direction: column;
+    opacity: 1;
+  }
+  .burger {
+    display: block;
+  }
+}
+.nav-active {
+  transform: translateX(0%);
+}
+
+/* Burger Menu */
+
+.mid-line {
+  opacity: 0;
+}
+
+.up-line {
+  animation-name: burger;
+  transition: ;
+}
+
+@keyframes burger {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(45px);
+  }
+}
+
+/* Search Bar */
+.search {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+.search-form {
+  display: none;
+  position: relative;
+  width: 100%;
+}
+.search-input {
+  margin-top: 10px;
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-bottom: 0.7px solid rgb(150, 147, 147);
+  font-size: 20px;
+  margin-left: 5%;
+  background-color: white;
+}
+
+.search,
+.search-close:hover {
+  cursor: pointer;
+}
+
+.search-close {
+  width: 2%;
+  padding-top: 3px;
+  position: absolute;
+  top: 30%;
+}
+.display-show {
+  display: block;
+}
