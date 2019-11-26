@@ -6,6 +6,7 @@ const navSlide = () => {
   burger.addEventListener("click", function() {
     burger.classList.toggle("open");
     nav.classList.toggle("nav-show");
+    body.classList.toggle("body-hide");
   });
 };
 
