@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 /* HEADER */
+
 header {
   width: 100%;
   background-color: white;
-  height: 60px;
+  min-height: 60px;
 }
 
 .header-show {
@@ -21,8 +22,8 @@ header {
   transform: translateX(-100%);
   height: 100%;
   margin-top: 62px;
-  position: absolute;
   left: 0px;
+  position: absolute;
   transition: 0.3s ease-in;
   background-color: white;
   z-index: 3;
@@ -125,6 +126,10 @@ header {
   transform: translateX(0%);
 }
 
+.body-hide {
+  overflow: hidden;
+}
+
 .shop {
   width: 40px;
 }
@@ -135,15 +140,18 @@ header {
 .logos {
   padding: 3%;
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  z-index: 3;
 }
 /* JAVACRIPT */
 
 /* FIRST SECTION */
 /* FIRST ARTICLE*/
 .first-article {
-  maringborder: 2px solid red;
   width: 100%;
   height: 568px;
   background-image: url("assets/MobileHomeImage.png");
@@ -179,9 +187,16 @@ header {
   font-weight: 500;
   font-size: 15px;
 }
+
+.new-product-button p {
+  display: flex;
+  align-items: center;
+}
 .new-product-button:hover {
   cursor: pointer;
 }
+
+/* PROMO TITLE */
 .promo-title {
   width: 100%;
   height: 65px;
@@ -192,6 +207,73 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+.promo-title1 {
+  position: absolute;
+  left: 0px;
+  animation-name: carrousel1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+.promo-title2 {
+  position: absolute;
+  left: 0px;
+  animation-name: carrousel2;
+  animation-duration: 20s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+
+@keyframes carrousel1 {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 25;
+  }
+  15% {
+    transform: translateX(15%);
+    opacity: 70;
+  }
+  20% {
+    opacity: 100;
+  }
+
+  100% {
+    transform: translateX(200%);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(300%);
+    opacity: 0;
+  }
+}
+
+@keyframes carrousel2 {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 25;
+  }
+  15% {
+    opacity: 100;
+  }
+  20% {
+    transform: translateX(46%);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translateX(500%);
+    opacity: 0;
+  }
+}
+
+/* PROMO TITLE */
 .first-section {
   margin-top: 1px;
 }
