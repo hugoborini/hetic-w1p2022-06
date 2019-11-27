@@ -9,20 +9,27 @@ header {
   width: 100%;
   background-color: white;
   min-height: 60px;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+}
+body {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /* NAV */
 
 .nav {
-  width: 100%;
+  width: 75%;
   transform: translateX(-100%);
   height: 100%;
-  margin-top: 62px;
-  left: 0px;
+  top: 59px;
+  left: -10px;
   position: fixed;
   transition: 0.3s ease-in;
   background-color: white;
-  z-index: 3;
+  z-index: 6;
 }
 
 .nav ul {
@@ -122,25 +129,17 @@ header {
   transform: translateX(0%);
 }
 
-.body-hide {
-  overflow: hidden;
-}
-
-.shop {
-  width: 40px;
-}
-
 .shark-logo {
   width: 60px;
 }
 .logos {
-  padding: 3%;
+  padding-top: 3%;
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  position: fixed;
+  position: absolute;
   z-index: 3;
   padding-right: 5%;
 }
@@ -150,26 +149,48 @@ header {
 /* FIRST ARTICLE*/
 .first-article {
   width: 100%;
-  height: 568px;
-  background-image: url("assets/homme-2.png");
+  height: 69vh;
+  background-image: url("assets/influencer.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: black;
 }
 .main-title {
   width: 100%;
-  height: 37px;
-  top: 134px;
   display: flex;
   justify-content: center;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 37px;
   text-align: center;
-
   color: #ffffff;
+  margin-top: 58%;
+  margin-bottom: 3vh;
+}
+
+.buy-product {
+  display: flex;
+  width: 80%;
+  height: 7%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background: none;
+  border-radius: 15px;
+  align-items: center;
+  border: 2px solid white;
+}
+.buy-product:hover {
+  cursor: pointer;
+}
+
+.buy-product p {
+  color: white;
+  padding: 1%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 100%;
 }
 .new-product-button {
   display: flex;
@@ -198,7 +219,6 @@ header {
 .promo-title {
   width: 100%;
   height: 65px;
-  background-color: black;
   color: white;
   font-size: 15px;
   display: flex;
@@ -212,6 +232,7 @@ header {
   animation-name: carrousel1;
   animation-duration: 20s;
   animation-iteration-count: infinite;
+  top: 90px;
 }
 .promo-title2 {
   position: absolute;
@@ -261,7 +282,7 @@ header {
     opacity: 100;
   }
   20% {
-    transform: translateX(46%);
+    transform: translateX(55%);
     opacity: 100%;
   }
 
@@ -280,12 +301,11 @@ header {
   width: 100%;
   height: 568px;
 }
-
 .sub-title {
-  margin-top: 22px;
   display: flex;
   justify-content: center;
   font-size: 24px;
+  margin-top: 10%;
 }
 
 .span-title {
@@ -356,3 +376,11 @@ footer {
   align-items: center;
 }
 /* FOOTER */
+
+/* MEDIA 768 px */
+/* promo title ipad */
+@media screen and (min-width: 500px) {
+  .promo-title {
+    opacity: 0;
+  }
+}

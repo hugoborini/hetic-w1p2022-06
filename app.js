@@ -1,12 +1,15 @@
 const burger = document.querySelector(".burger");
 const nav = document.querySelector(".nav");
 const body = document.querySelector("body");
+const size = document.querySelector(".size-select li");
 const navSlide = () => {
   var burger = document.querySelector(".burger");
   burger.addEventListener("click", function() {
     burger.classList.toggle("open");
     nav.classList.toggle("nav-show");
-    body.classList.toggle("body-hide");
+  });
+  size.addEventListener("click", () => {
+    size.classList.toggle("size-select-grey ");
   });
 };
 
