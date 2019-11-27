@@ -142,6 +142,7 @@ body {
   position: absolute;
   z-index: -1;
   padding-right: 5%;
+  border-bottom: 0.5px solid black;
 }
 /* JAVACRIPT */
 
@@ -217,7 +218,7 @@ body {
   cursor: pointer;
 }
 
-/* PROMO TITLE */
+/* ARTICLES*/
 .first-section {
   margin-top: 1px;
 }
@@ -233,7 +234,7 @@ body {
   color: white;
 }
 
-.story-title {
+.shirt-title {
   width: 100%;
   font-family: Montserrat;
   font-style: normal;
@@ -247,6 +248,94 @@ body {
 .shirt-front {
   width: 80%;
   margin: 10%;
+}
+.second-article {
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 343px;
+  padding: 5%;
+}
+.third-title {
+  padding-left: 10%;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 20px;
+  color: #293148;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin-left: 10%;
+  font-size: 18px;
+  color: #898d98;
+  margin-top: 7%;
+}
+
+.description-shirt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  height: 134px;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
+.speed-logo {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20%;
+}
+.description-train {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  height: 134px;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+}
+.train-image {
+  width: 100%;
+  height: 398.24;
+}
+.buy-button {
+  width: 80%;
+  height: 50px;
+  margin-left: 10%;
+  background-color: rgba(0, 0, 0, 0.85);
+  border: none;
+  border-radius: 25px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-button:hover {
+  cursor: pointer;
+}
+
+.buy-button p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.know-button {
+  margin-top: 5px;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #293148;
+  text-decoration: underline;
+  margin-bottom: 25px;
 }
 
 /* FOOTER */
