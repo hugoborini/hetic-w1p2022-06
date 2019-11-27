@@ -33,15 +33,12 @@ body {
   z-index: 6;
 }
 @media screen and (min-width: 768px) {
+  /* REMOOVE MOBILE AND ADD DESKTOP */
   .burger {
     display: none;
   }
   .nav-mobile {
     display: none;
-  }
-  .logos {
-    border: 2px solid blue;
-    width: 30px;
   }
 }
 
