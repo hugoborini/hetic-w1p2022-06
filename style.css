@@ -18,9 +18,11 @@ body {
 }
 
 /* NAV */
-
-.nav {
-  width: 100%;
+.nav-desktop {
+  display: none;
+}
+.nav-mobile {
+  width: 75%;
   transform: translateX(-100%);
   height: 100%;
   top: 59px;
@@ -29,10 +31,21 @@ body {
   transition: 0.3s ease-in;
   background-color: white;
   z-index: 6;
-  border-top: 6px solid black;
+}
+@media screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+  .nav-mobile {
+    display: none;
+  }
+  .logos {
+    border: 2px solid blue;
+    width: 30px;
+  }
 }
 
-.nav ul {
+.nav-mobile ul {
   height: 90%;
   list-style: none;
   display: flex;
@@ -41,14 +54,14 @@ body {
   align-items: center;
 }
 
-.nav ul li {
+.nav-mobile ul li {
   display: flex;
   font-size: 20px;
   height: 100%;
   width: 100%;
   margin-top: 1%;
 }
-.nav ul li a {
+.nav-mobile ul li a {
   text-decoration: none;
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
@@ -60,7 +73,7 @@ body {
   align-items: center;
 }
 
-.nav ul li a:hover {
+.nav-mobile ul li a:hover {
   background-color: black;
   transition: 0.6s;
   opacity: 0.9;
@@ -377,10 +390,125 @@ footer {
 }
 /* FOOTER */
 
-/* MEDIA 768 px */
+/* MEDIA 768 px DESKTOP VERSION */
+
 /* promo title ipad */
 @media screen and (min-width: 500px) {
   .promo-title {
     opacity: 0;
   }
+}
+
+/* SELL PAGE */
+
+.sell-article {
+  margin-top: 60px;
+  border: 2px solid red;
+  width: 100%;
+}
+.brand-sell {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: rgba(96, 96, 96, 1);
+
+  display: flex;
+  margin-top: 36px;
+  margin-left: 35px;
+}
+
+.item-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.04em;
+  margin-left: 36px;
+  margin-top: 20px;
+}
+.item-price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(96, 96, 96, 1);
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.04em;
+  margin-left: 36px;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(96, 96, 96, 0.705);
+  width: 80%;
+}
+
+.size-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(96, 96, 96, 1);
+  display: flex;
+  margin-top: 36px;
+  margin-left: 35px;
+}
+
+.size-select {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.size-select li {
+  border: solid #a8a8a8 1px;
+  padding: 15px;
+  color: #a8a8a8;
+  margin: 5px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.size-select-grey {
+  background-color: grey;
+  color: white;
+}
+
+.sell-button {
+  text-transform: uppercase;
+  border: solid #ebebeb;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ebebeb;
+  color: #a8a8a8;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+/* STORY PAGE */
+.story-pic {
+  width: 100%;
+  margin-top: 0px;
+}
+.story-article {
+  margin-top: 0px;
+}
+.story-title {
+  width: 100%;
+  padding-left: 3%;
+  font-size: 24px;
+  border-right: 1px solid black;
+}
+.story-text {
+  margin-top: 3%;
+  font-size: 20px;
+  text-align: center;
 }

@@ -13,17 +13,15 @@
   </head>
   <body>
     <header>
-      <nav class="nav">
+      <nav class="nav-mobile">
         <ul class="nav-links">
           <li>
             <a href="index.html"> Accueil</a>
           </li>
           <li>
-            <a href="#"> Notre Produit</a>
+            <a href="sell.html"> Notre Produit</a>
           </li>
-          <li>
-            <a href="#">Nouveauté</a>
-          </li>
+
           <li>
             <a href="article.html">Notre histoire</a>
           </li>
@@ -33,6 +31,19 @@
         <a href="index.html"
           ><img class="shark-logo" src="assets/gym-logo-text.svg" alt="" />
         </a>
+        <!-- DESKTOP VERSION ONLY-->
+        <ul class="nav-desktop">
+          <li>
+            <a href="index.html"> Accueil</a>
+          </li>
+          <li>
+            <a href="sell.html"> Notre Produit</a>
+          </li>
+
+          <li>
+            <a href="article.html">Notre histoire</a>
+          </li>
+        </ul>
         <div class="burger">
           <span></span>
           <span></span>
@@ -46,7 +57,9 @@
         <article class="main-article">
           <h1 class="main-title">T-SHARK</h1>
           <h3 class="sub-title">Le T-shirt connecté</h3>
-          <button class="buy-product"><p>ORDER NOW</p></button>
+          <a href="sell.html">
+            <button class="buy-product"><p>ORDER NOW</p></button>
+          </a>
         </article>
 
         <article class="shirt-article">
@@ -117,7 +130,7 @@
           </p>
           <img class="train-image" src="assets/coach.PNG" alt="speed logo" />
         </article>
-        <a href="#">
+        <a href="sell.html">
           <button class="buy-button"><p>Commander</p></button>
         </a>
         <a href="#" class="know-button">En savoir plus</a>

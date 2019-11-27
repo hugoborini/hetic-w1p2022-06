@@ -1,5 +1,5 @@
 const burger = document.querySelector(".burger");
-const nav = document.querySelector(".nav");
+const nav = document.querySelector(".nav-mobile");
 const body = document.querySelector("body");
 const size = document.querySelector(".size-select li");
 const navSlide = () => {
