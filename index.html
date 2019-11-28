@@ -13,19 +13,17 @@
   </head>
   <body>
     <header>
-      <nav class="nav">
+      <nav class="nav-mobile">
         <ul class="nav-links">
           <li>
-            <a href="#"> Accueil</a>
+            <a href="index.html"> Accueil</a>
           </li>
           <li>
-            <a href="#"> Notre Produit</a>
+            <a href="sell.html"> Notre Produit</a>
           </li>
+
           <li>
-            <a href="#">Nouveauté</a>
-          </li>
-          <li>
-            <a href="#">Notre histoire</a>
+            <a href="article.html">Notre histoire</a>
           </li>
         </ul>
       </nav>
@@ -33,6 +31,19 @@
         <a href="index.html"
           ><img class="shark-logo" src="assets/gym-logo-text.svg" alt="" />
         </a>
+        <!-- DESKTOP VERSION ONLY-->
+        <ul class="nav-desktop">
+          <li>
+            <a href="index.html"> Accueil</a>
+          </li>
+          <li>
+            <a href="sell.html"> Notre Produit</a>
+          </li>
+
+          <li>
+            <a href="article.html">Notre histoire</a>
+          </li>
+        </ul>
         <div class="burger">
           <span></span>
           <span></span>
@@ -43,17 +54,19 @@
     </header>
     <main>
       <section class="first-section">
-        <article class="first-article">
+        <article class="main-article">
           <h1 class="main-title">T-SHARK</h1>
           <h3 class="sub-title">Le T-shirt connecté</h3>
-          <button class="buy-product"><p>Commander</p></button>
+          <a href="sell.html">
+            <button class="buy-product"><p>Commander</p></button>
+          </a>
         </article>
 
         <article class="shirt-article">
           <h3 class="shirt-title">T-Shark, le T-shirt connecté</h3>
           <img class="shirt-front" src="assets/t-shirt-png.png" alt="t-shirt" />
         </article>
-        <article class="second-article">
+        <article class="sub-article">
           <h3 class="third-title">
             Analayse tes performances
           </h3>
@@ -62,7 +75,7 @@
           </p>
           <img class="speed-logo" src="assets/speed.png" alt="speed logo" />
         </article>
-        <article class="second-article">
+        <article class="sub-article">
           <h3 class="third-title">
             Affiche tes dépenses caloriques
           </h3>
@@ -75,7 +88,7 @@
             alt="speed logo"
           />
         </article>
-        <article class="second-article">
+        <article class="sub-article">
           <h3 class="third-title">
             Te propose un programe
           </h3>
@@ -117,21 +130,16 @@
           </p>
           <img class="train-image" src="assets/coach.PNG" alt="speed logo" />
         </article>
-        <a href="#">
+        <a href="sell.html">
           <button class="buy-button"><p>Commander</p></button>
         </a>
-        <a href="#" class="know-button">En savoir plus</a>
+        <a href="article.html" class="know-button">En savoir plus</a>
       </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
       <nav class="nav-footer">
-        <ul class="message-destop">
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Informations légales</a></li>
-        </ul>
         <ul class="ul-logo">
           <a href="https://www.instagram.com/gymshark/" target="_blank"
             ><img src="assets/insta.svg" alt="instagram"
