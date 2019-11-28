@@ -18,7 +18,6 @@ header {
   top: 0px;
 }
 
-
 /* NAV */
 
 .nav {
@@ -373,14 +372,12 @@ footer {
   border-top: 2px solid rgba(0, 0, 0, 0.215);
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
-  
 }
 .nav-footer {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
- 
 }
 
 .ul-logo {
@@ -675,101 +672,101 @@ footer {
     padding: 5%;
   }
 }
-  /* QUICK FIXED MEDIA 760 - DESKTOP */
-  @media screen and (min-width: 768px) and (max-width: 1050px) {
-    .sub-article {
-      margin-top: -10%;
-    }
-  }
-  @media screen and (min-width: 1050px) and (max-width: 1150px) {
-    .sub-article {
-      margin-top: -5%;
-    }
-  }
-  .third-title {
-    padding-left: 10%;
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 20px;
-    color: #293148;
-  }
-  .description {
-    display: flex;
-    justify-content: center;
-    width: 75%;
-    margin-left: 10%;
-    font-size: 18px;
-    color: #898d98;
-    margin-top: 7%;
-  }
-
-  .description-shirt {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    height: 134px;
-    text-align: center;
-    width: 60%;
-    margin-left: 20%;
-  }
-  .speed-logo {
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 20%;
-  }
-  .description-train {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    height: 134px;
-    text-align: center;
-    width: 90%;
-    margin-left: 5%;
-  }
-  .train-image {
-    width: 100%;
-    height: 398.24;
-  }
-  .buy-button {
-    width: 33%;
-    height: 50px;
-    margin-left: 33%;
-    background-color: rgba(0, 0, 0, 0.85);
-    border: none;
-    border-radius: 25px;
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .buy-button:hover {
-    cursor: pointer;
-  }
-
-  .buy-button p {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-  }
-
-  .know-button {
-    margin-top: 5px;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: #293148;
-    text-decoration: underline;
-    margin-bottom: 25px;
+/* QUICK FIXED MEDIA 760 - DESKTOP */
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+  .sub-article {
+    margin-top: -10%;
   }
 }
+@media screen and (min-width: 1050px) and (max-width: 1150px) {
+  .sub-article {
+    margin-top: -5%;
+  }
+}
+.third-title {
+  padding-left: 10%;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 20px;
+  color: #293148;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin-left: 10%;
+  font-size: 18px;
+  color: #898d98;
+  margin-top: 7%;
+}
+
+.description-shirt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  height: 134px;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
+.speed-logo {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20%;
+}
+.description-train {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  height: 134px;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+}
+.train-image {
+  width: 100%;
+  height: 398.24;
+}
+.buy-button {
+  width: 33%;
+  height: 50px;
+  margin-left: 33%;
+  background-color: rgba(0, 0, 0, 0.85);
+  border: none;
+  border-radius: 25px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-button:hover {
+  cursor: pointer;
+}
+
+.buy-button p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.know-button {
+  margin-top: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #293148;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
 @media screen and (min-width: 500px) and (max-width: 768px) {
   .promo-title {
     opacity: 0;
@@ -782,8 +779,6 @@ footer {
     width: 30%;
   }
 }
-
-
 
 .size-select li {
   border: solid #a8a8a8 1px;
