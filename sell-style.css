@@ -130,13 +130,15 @@ footer {
 
 @media (min-width: 768px) {
   .t-shirt {
-    max-width: 450px;
-    width: 50vw;
+    max-width: 350px;
+    width: 40vw;
     margin: 5%;
   }
 
   main {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
   }
 
   .size-select {

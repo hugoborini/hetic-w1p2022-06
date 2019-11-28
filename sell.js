@@ -9,8 +9,6 @@ sell_button.addEventListener("click", function() {
   alert("Merci pour votre commande");
 });
 red.addEventListener("click", function() {
-  console.log("click");
-
   img.setAttribute("src", "assets/red-shirt.png");
 });
 
