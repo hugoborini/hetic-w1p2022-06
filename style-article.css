@@ -28,10 +28,6 @@
   }
 }
 /* MEDIA LAST MINUTE FIX ARTICLE */
-.article-image {
-  height: 50%;
-  width: 50%;
-}
 
 .article-story {
   height: 100vh;
@@ -41,9 +37,7 @@
   border: 2px solid red;
   margin-top: 150px;
 }
-.text-article2 {
-  -top: -100px;
-}
+
 .footer-medias {
   text-align: center;
 }
