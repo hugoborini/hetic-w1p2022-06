@@ -259,7 +259,7 @@ body {
   width: 80%;
   margin-left: 10%;
   margin-top: 5%;
-  height: 343px;
+  height: 300px;
   padding: 5%;
 }
 .third-title {
@@ -291,9 +291,9 @@ body {
   margin-left: 20%;
 }
 .speed-logo {
-  width: 50%;
+  width: 45%;
   margin-left: 25%;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 .description-train {
   display: flex;
@@ -751,9 +751,16 @@ footer {
     margin-bottom: 25px;
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px) and (max-width: 768px) {
   .promo-title {
     opacity: 0;
+  }
+  .main-article {
+    height: 100%;
+    padding-bottom: 3%;
+  }
+  .speed-logo {
+    width: 30%;
   }
 }
 
