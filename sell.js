@@ -1,7 +1,7 @@
-var red = document.querySelector(".color-select label:nth-child(2)");
-var blue = document.querySelector(".color-select label:nth-child(4)");
-var grey = document.querySelector(".color-select label:nth-child(6)");
-var black = document.querySelector(".color-select label:nth-child(8)");
+var red = document.querySelector(".color-select label");
+var blue = document.querySelector(".color-select:nth-child(4)");
+var grey = document.querySelector(".color-select:nth-child(6)");
+var black = document.querySelector(".color-select:nth-child(8)");
 var img = document.querySelector(".shirt-front");
 var sell_button = document.querySelector(".sell-button");
 
