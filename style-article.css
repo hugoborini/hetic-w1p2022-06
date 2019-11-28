@@ -1,3 +1,49 @@
+/* Image */
+/* MEDIA LAST MINUTE FIX ARTICLE */
+
+@media screen and (max-width: 768px) {
+  .image-article {
+    display: none;
+  }
+  .histoire-article {
+    display: none;
+  }
+  .mobile-article {
+    margin-top: 160px;
+  }
+  .description-train {
+    width: 85%;
+    height: 50%;
+    text-align: justify;
+    margin-left: 7.5%;
+  }
+  .description-shirt {
+    width: 85%;
+    height: 50%;
+    text-align: justify;
+    margin-top: 7%;
+    margin-left: 7.5%;
+    margin-right: 0%;
+    margin-bottom: 7.5%;
+  }
+}
+/* MEDIA LAST MINUTE FIX ARTICLE */
+.article-image {
+  height: 50%;
+  width: 50%;
+}
+
+.article-story {
+  height: 100vh;
+  width: 100%;
+}
+.article-story p {
+  border: 2px solid red;
+  margin-top: 150px;
+}
+.text-article2 {
+  -top: -100px;
+}
 .footer-medias {
   text-align: center;
 }

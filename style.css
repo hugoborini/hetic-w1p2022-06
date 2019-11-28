@@ -251,8 +251,7 @@ header {
 }
 
 .shirt-front {
-  width: 80%;
-  margin: 10%;
+  width: 40%;
 }
 .sub-article {
   opacity: 0;
@@ -659,7 +658,7 @@ footer {
   }
 
   .shirt-front {
-    width: 80%;
+    width: 30%;
     margin: 10%;
   }
   .sub-article {
