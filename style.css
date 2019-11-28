@@ -391,6 +391,7 @@ footer {
 .ul-contact {
   display: none;
   color: black;
+  margin-left: 3%;
 }
 .ul-contact h1 {
   color: black;
@@ -398,6 +399,7 @@ footer {
 .ul-faq {
   display: none;
   color: black;
+  margin-right: 3%;
 }
 .ul-faq h1 {
   color: black;
