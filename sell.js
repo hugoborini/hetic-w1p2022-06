@@ -1,14 +1,16 @@
-var red = document.querySelector(".color-select label");
-var blue = document.querySelector(".color-select:nth-child(4)");
-var grey = document.querySelector(".color-select:nth-child(6)");
-var black = document.querySelector(".color-select:nth-child(8)");
-var img = document.querySelector(".shirt-front");
+var red = document.querySelector(".red-color");
+var blue = document.querySelector(".blue-color");
+var grey = document.querySelector(".grey-color");
+var black = document.querySelector(".black-color");
+var img = document.querySelector(".t-shirt");
 var sell_button = document.querySelector(".sell-button");
 
 sell_button.addEventListener("click", function() {
   alert("Merci pour votre commande");
 });
 red.addEventListener("click", function() {
+  console.log("click");
+
   img.setAttribute("src", "assets/red-shirt.png");
 });
 
