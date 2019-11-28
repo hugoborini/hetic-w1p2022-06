@@ -7,14 +7,14 @@
 .question {
   text-transform: uppercase;
   margin-top: 20px;
-  margin-left: 5px;
+  margin-left: 5%;
   font-size: 9px;
   font-family: Montserrat;
   color: #a6a6a6;
 }
 
 .answer {
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: 25px;
   font-size: 12px;
   color: black;
@@ -23,4 +23,19 @@
 
 main {
   margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .faq-title {
+    margin-top: 50px;
+    font-size: 48px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+
+  .answer {
+    font-size: 24px;
+  }
 }
