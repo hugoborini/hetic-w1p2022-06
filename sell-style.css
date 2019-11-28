@@ -153,6 +153,13 @@
   margin-top: 36px;
   margin-left: 35px;
 }
+.size-select {
+  width: 90%;
+  height: 30px;
+  margin: 0;
+  margin-left: 8%;
+  margin-top: 5%;
+}
 
 .size-select {
   display: flex;
