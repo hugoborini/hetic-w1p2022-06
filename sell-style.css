@@ -51,7 +51,6 @@
   padding: 10px 15px;
   height: 30px;
   width: 30px;
-  border: 1px solid black;
   border-radius: 3px;
 }
 
@@ -62,7 +61,6 @@
   padding: 10px 15px;
   height: 30px;
   width: 30px;
-  border: 1px solid black;
   border-radius: 3px;
 }
 
@@ -73,7 +71,6 @@
   padding: 10px 15px;
   height: 30px;
   width: 30px;
-  border: 1px solid black;
   border-radius: 3px;
 }
 
@@ -84,7 +81,6 @@
   padding: 10px 15px;
   height: 30px;
   width: 30px;
-  border: 1px solid black;
   border-radius: 3px;
 }
 
@@ -114,7 +110,7 @@ footer {
   text-decoration: none;
   min-width: 200px;
   display: none;
-  scolor: black;
+  color: black;
 }
 .ul-logo {
   width: 100%;
