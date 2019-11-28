@@ -12,8 +12,6 @@
 }
 
 input {
-  position: absolute;
-  visibility: hidden;
   display: none;
 }
 

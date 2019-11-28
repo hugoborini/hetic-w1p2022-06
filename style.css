@@ -18,10 +18,8 @@ body {
 }
 
 /* NAV */
-.nav-desktop {
-  display: none;
-}
-.nav-mobile {
+
+.nav {
   width: 75%;
   transform: translateX(-100%);
   height: 100%;
@@ -32,17 +30,8 @@ body {
   background-color: white;
   z-index: 6;
 }
-@media screen and (min-width: 768px) {
-  /* REMOOVE MOBILE AND ADD DESKTOP */
-  .burger {
-    display: none;
-  }
-  .nav-mobile {
-    display: none;
-  }
-}
 
-.nav-mobile ul {
+.nav ul {
   height: 90%;
   list-style: none;
   display: flex;
@@ -51,14 +40,14 @@ body {
   align-items: center;
 }
 
-.nav-mobile ul li {
+.nav ul li {
   display: flex;
   font-size: 20px;
   height: 100%;
   width: 100%;
   margin-top: 1%;
 }
-.nav-mobile ul li a {
+.nav ul li a {
   text-decoration: none;
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
@@ -70,7 +59,7 @@ body {
   align-items: center;
 }
 
-.nav-mobile ul li a:hover {
+.nav ul li a:hover {
   background-color: black;
   transition: 0.6s;
   opacity: 0.9;
@@ -395,6 +384,282 @@ footer {
 /* MEDIA 768 px DESKTOP VERSION */
 
 /* promo title ipad */
+@media screen and (min-width: 768px) {
+  /* BURGER NONE */
+  .burger {
+    display: none;
+  }
+  header {
+    width: 100%;
+    background-color: white;
+    min-height: 12vh;
+    position: initial;
+  }
+  .nav {
+    width: 100%;
+    height: 100%;
+    transform: translateX(-0%);
+    position: initial;
+    display: flex;
+    align-items: center;
+    background-color: white;
+  }
+
+  .nav ul {
+    width: 80%;
+    height: 12vh;
+    margin-left: 18%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid rgba(96, 96, 96, 0.705);
+  }
+
+  .nav ul li {
+    display: flex;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  .nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav ul li a:hover {
+    background-color: black;
+    transition: 0.6s;
+    opacity: 0.9;
+    color: white;
+  }
+
+  .logos {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: absolute;
+    z-index: 6;
+  }
+  .shark-logo {
+    width: 140px;
+    width: 168px;
+    margin-left: 1%;
+    position: absolute;
+    z-index: 20;
+    top: -6vh;
+  }
+  /* JAVACRIPT */
+
+  /* FIRST SECTION */
+  /* FIRST ARTICLE*/
+  .main-article {
+    width: 100%;
+    height: 69vh;
+    margin-top: -115vh;
+    background-image: url("assets/.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: 0px;
+  }
+
+  .main-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 37px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 58%;
+    margin-bottom: 3vh;
+  }
+
+  .buy-product {
+    display: flex;
+    width: 80%;
+    height: 7%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background: none;
+    border-radius: 15px;
+    align-items: center;
+    border: 2px solid white;
+  }
+  .buy-product:hover {
+    cursor: pointer;
+  }
+
+  .buy-product p {
+    color: white;
+    padding: 1%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+  }
+  .new-product-button {
+    display: flex;
+    justify-content: center;
+    width: 110%;
+    height: 45px;
+    background: black;
+    border-radius: 15px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 230px;
+    font-size: 15px;
+    color: white;
+  }
+
+  .new-product-button p {
+    display: flex;
+    align-items: center;
+  }
+  .new-product-button:hover {
+    cursor: pointer;
+  }
+
+  /* ARTICLES*/
+  .first-section {
+    margin-top: 1px;
+  }
+
+  .mobile-home-image {
+    width: 100%;
+    height: 568px;
+  }
+  .sub-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: white;
+  }
+
+  .shirt-title {
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    margin-top: 36px;
+    justify-content: center;
+  }
+
+  .shirt-front {
+    width: 80%;
+    margin: 10%;
+  }
+  .sub-article {
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 343px;
+    padding: 5%;
+  }
+  .third-title {
+    padding-left: 10%;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    color: #293148;
+  }
+  .description {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-left: 10%;
+    font-size: 18px;
+    color: #898d98;
+    margin-top: 7%;
+  }
+
+  .description-shirt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    height: 134px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .speed-logo {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+  }
+  .description-train {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    height: 134px;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .train-image {
+    width: 100%;
+    height: 398.24;
+  }
+  .buy-button {
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: none;
+    border-radius: 25px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buy-button:hover {
+    cursor: pointer;
+  }
+
+  .buy-button p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .know-button {
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #293148;
+    text-decoration: underline;
+    margin-bottom: 25px;
+  }
+}
 @media screen and (min-width: 500px) {
   .promo-title {
     opacity: 0;
