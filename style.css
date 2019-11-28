@@ -5,9 +5,9 @@
 }
 
 /* HEADER */
-/* REMOVE MOBILE DISPLAY */
-.nav ul li:nth-of-type(1) {
-  display: none;
+
+body {
+  overflow-x: hidden;
 }
 
 header {
@@ -18,9 +18,6 @@ header {
   top: 0px;
 }
 
-body {
-  overflow-x: hidden;
-}
 
 /* NAV */
 
@@ -36,7 +33,10 @@ body {
   z-index: 6;
   margin-top: 2%;
 }
-
+/* REMOVE MOBILE DISPLAY */
+.nav ul li:nth-of-type(1) {
+  display: none;
+}
 .nav ul {
   height: 90%;
   list-style: none;
@@ -298,11 +298,13 @@ body {
   width: 60%;
   margin-left: 20%;
 }
+
 .speed-logo {
   width: 45%;
   margin-left: 25%;
   margin-top: 5%;
 }
+
 .description-train {
   display: flex;
   align-items: center;
@@ -314,10 +316,12 @@ body {
   width: 90%;
   margin-left: 5%;
 }
+
 .train-image {
   width: 100%;
   height: 398.24;
 }
+
 .buy-button {
   width: 80%;
   height: 50px;

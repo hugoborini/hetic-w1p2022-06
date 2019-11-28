@@ -5,7 +5,33 @@
 div.footer-medias {
   text-decoration: underline;
 }
-
+/* STORY PAGE */
+.story-pic {
+  width: 100%;
+  margin-top: 60px;
+}
+.story-article {
+  margin-top: 0px;
+}
+.story-title {
+  width: 100%;
+  padding-left: 5%;
+  font-size: 25px;
+  border-right: 1px solid black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-weight: bold;
+}
+.story-title .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.story-text {
+  margin-top: 10%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
 /* FOOTER */
 * {
   margin: 0px;
