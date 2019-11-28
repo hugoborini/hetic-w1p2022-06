@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 /* HEADER */
 /* REMOVE MOBILE DISPLAY */
 .nav ul li:nth-of-type(1) {
@@ -364,24 +365,23 @@ body {
 }
 footer {
   width: 100%;
+  height: 8vh;
   border-top: 2px solid rgba(0, 0, 0, 0.215);
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  
 }
 .nav-footer {
   width: 100%;
-  width: 100%;
   height: 100%;
   display: flex;
+  align-items: center;
+ 
 }
-.message-destop {
-  text-decoration: none;
-  min-width: 200px;
-  display: none;
-  color: black;
-}
+
 .ul-logo {
   width: 100%;
   height: 90%;
-  margin-top: 2%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -389,7 +389,6 @@ footer {
 .ul-contact {
   display: none;
   color: black;
-  margin-top: 1%;
 }
 .ul-contact h1 {
   color: black;
@@ -397,10 +396,10 @@ footer {
 .ul-faq {
   display: none;
   color: black;
-  margin-top: 1%;
 }
 .ul-faq h1 {
   color: black;
+  margin-right: 3%;
 }
 @media screen and (min-width: 768px) {
   /* BURGER NONE */
@@ -606,14 +605,12 @@ footer {
     padding-right: 10%;
   }
   .shirt-article {
-    border-bottom: 2px solid rgba(96, 96, 96, 0.705);
     border-width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .shirt-article2 {
-    border-bottom: 2px solid rgba(96, 96, 96, 0.705);
     border-block-start-width: 50%;
     display: flex;
     justify-content: center;
@@ -621,7 +618,6 @@ footer {
     flex-direction: row-reverse;
   }
   .shirt-article2 {
-    border-bottom: 2px solid rgba(96, 96, 96, 0.705);
     border-block-start-width: 50%;
     display: flex;
     justify-content: center;
@@ -674,15 +670,16 @@ footer {
     height: 343px;
     padding: 5%;
   }
+}
   /* QUICK FIXED MEDIA 760 - DESKTOP */
   @media screen and (min-width: 768px) and (max-width: 1050px) {
     .sub-article {
-      margin-top: -18%;
+      margin-top: -10%;
     }
   }
-  @media screen and (min-width: 1050px) and (max-width: 1250px) {
+  @media screen and (min-width: 1050px) and (max-width: 1150px) {
     .sub-article {
-      margin-top: -8%;
+      margin-top: -5%;
     }
   }
   .third-title {
@@ -734,9 +731,9 @@ footer {
     height: 398.24;
   }
   .buy-button {
-    width: 80%;
+    width: 33%;
     height: 50px;
-    margin-left: 10%;
+    margin-left: 33%;
     background-color: rgba(0, 0, 0, 0.85);
     border: none;
     border-radius: 25px;
@@ -782,71 +779,7 @@ footer {
   }
 }
 
-/* SELL PAGE */
 
-.sell-article {
-  margin-top: 60px;
-  border: 2px solid red;
-  width: 100%;
-}
-.brand-sell {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  color: rgba(96, 96, 96, 1);
-
-  display: flex;
-  margin-top: 36px;
-  margin-left: 35px;
-}
-
-.item-title {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  letter-spacing: 0.04em;
-  margin-left: 36px;
-  margin-top: 20px;
-}
-.item-price {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  color: rgba(96, 96, 96, 1);
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  letter-spacing: 0.04em;
-  margin-left: 36px;
-  margin-top: 20px;
-  border-bottom: 1px solid rgba(96, 96, 96, 0.705);
-  width: 80%;
-}
-
-.size-title {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  color: rgba(96, 96, 96, 1);
-  display: flex;
-  margin-top: 36px;
-  margin-left: 35px;
-}
-
-.size-select {
-  display: flex;
-  justify-content: space-evenly;
-  cursor: pointer;
-}
 
 .size-select li {
   border: solid #a8a8a8 1px;
