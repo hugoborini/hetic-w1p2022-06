@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.t-shirt {
+  width: 80%;
+  margin: 10%;
+  margin-top: 10vh;
+}
+
 .sub-title {
   margin-top: 22px;
   display: flex;
@@ -25,7 +31,7 @@
 }
 
 .size-select {
-  margin: 10vw;
+  margin-left: 10vw;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -35,7 +41,7 @@
   color: #ffffff;
 }
 .color-select {
-  margin: 10vw;
+  margin-left: 10vw;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -122,3 +128,24 @@ footer {
 }
 
 /* FOOTER */
+
+@media (min-width: 768px) {
+  .t-shirt {
+    width: 50vw;
+    height: 80%;
+    margin: 5%;
+  }
+
+  main {
+    display: flex;
+  }
+
+  .size-select {
+    margin-top: 30px;
+  }
+
+  .color-select {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
