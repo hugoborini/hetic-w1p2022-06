@@ -8,9 +8,6 @@ const navSlide = () => {
     burger.classList.toggle("open");
     nav.classList.toggle("nav-show");
   });
-  size.addEventListener("click", () => {
-    size.classList.toggle("size-select-grey ");
-  });
 };
 
 navSlide();
