@@ -11,3 +11,15 @@ const navSlide = () => {
 };
 
 navSlide();
+
+var article_tab = document.querySelectorAll(".sub-article");
+
+article_tab.forEach(element => {
+  var waypoint = new Waypoint({
+    element: element,
+    handler: function(direction) {
+      element.classList.add("is-reached");
+    },
+    offset: "50%"
+  });
+});

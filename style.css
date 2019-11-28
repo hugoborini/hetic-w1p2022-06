@@ -255,6 +255,7 @@ body {
   margin: 10%;
 }
 .sub-article {
+  opacity: 0;
   border: 1px solid #e6e6e6;
   border-radius: 6px;
   width: 80%;
@@ -262,6 +263,11 @@ body {
   margin-top: 5%;
   height: 300px;
   padding: 5%;
+  transition: 0.9s ease-out;
+}
+
+.is-reached {
+  opacity: 1;
 }
 .third-title {
   padding-left: 10%;
