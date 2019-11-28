@@ -11,11 +11,11 @@
   font-size: 24px;
 }
 
-input {
+.size-select input {
   display: none;
 }
 
-label {
+.size-select label {
   color: #636363;
   font-weight: bold;
   padding: 5px 15px;
@@ -25,15 +25,71 @@ label {
 }
 
 .size-select {
-  display: inline-block;
   margin: 10vw;
   border-radius: 5px;
   overflow: hidden;
 }
 
-input:checked + label {
+.size-select input:checked + label {
   background-color: #636363;
   color: #ffffff;
+}
+.color-select {
+  margin: 10vw;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.color-select input {
+  display: none;
+}
+
+.red-color {
+  display: inline-block;
+  background-color: #ac1717;
+  font-weight: bold;
+  padding: 10px 15px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.blue-color {
+  display: inline-block;
+  background-color: blue;
+  font-weight: bold;
+  padding: 10px 15px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.grey-color {
+  display: inline-block;
+  background-color: grey;
+  font-weight: bold;
+  padding: 10px 15px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.black-color {
+  display: inline-block;
+  background-color: black;
+  font-weight: bold;
+  padding: 10px 15px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.color-select input:checked + label {
+  border: 3px solid lightblue;
 }
 /* FOOTER */
 
@@ -58,7 +114,7 @@ footer {
   text-decoration: none;
   min-width: 200px;
   display: none;
-  color: black;
+  scolor: black;
 }
 .ul-logo {
   width: 100%;
@@ -68,4 +124,5 @@ footer {
   justify-content: space-evenly;
   align-items: center;
 }
+
 /* FOOTER */
